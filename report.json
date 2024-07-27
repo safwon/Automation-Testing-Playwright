@@ -1,0 +1,120 @@
+{
+  "config": {
+    "configFile": "K:\\A UNIDEVGO\\TransportedLab_working\\LightShow-UI-Automation\\playwright.config.ts",
+    "rootDir": "K:/A UNIDEVGO/TransportedLab_working/LightShow-UI-Automation",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "K:\\A UNIDEVGO\\TransportedLab_working\\LightShow-UI-Automation\\utils\\global-setup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "K:/A UNIDEVGO/TransportedLab_working/LightShow-UI-Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "K:/A UNIDEVGO/TransportedLab_working/LightShow-UI-Automation",
+        "testIgnore": [],
+        "testMatch": [
+          "lightShow.test.ts"
+        ],
+        "timeout": 3000000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.41.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\lightShow.test.ts",
+      "file": "tests/lightShow.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "LS-7 | Admin Side | Game Design | Color Section | Validate Admin Can Update Icon Color",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 3000000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 49919,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Validate Game Design Color Section",
+                      "duration": 42719
+                    }
+                  ],
+                  "startTime": "2024-07-02T06:32:52.368Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "K:\\A UNIDEVGO\\TransportedLab_working\\LightShow-UI-Automation\\test-results\\tests-lightShow-LS-7-Admin-Side-Game-Design-Color-Section-Validate-Admin-Can-Update-Icon-Color\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c905a9313a0ac73b52e9-ff17c1ca2befd36def3b",
+          "file": "tests/lightShow.test.ts",
+          "line": 182,
+          "column": 6
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-07-02T06:32:49.471Z",
+    "duration": 52916.055,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
